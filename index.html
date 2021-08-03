@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/publication.css">
 </head>
 <body>
     <div class="TB-Widget">
@@ -108,7 +109,21 @@
         </div>
 
         <div class="TB-MAIN-COMPONENT">
-
+            <div class="Notices">
+                <div class="Publication" onmouseover="onPublication(this)"" onmouseout="onPublication(this)">
+                    <div class="Publication-just">
+                        <div class="Publication-fecha">
+                            29 de Enero 2019
+                        </div>
+                        <div class="Publication-titulo">
+                            Fix problem authenticate
+                        </div>
+                        <div class="Publication-contenido">
+                            Se arreglo el error que ocurria cuando se intentaba loguear desde otro equipo.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script>
@@ -131,7 +146,17 @@
             equiposBar.classList.toggle("active");
         }
 
+        let publication = document.querySelector(".Publication");
 
+        function onPublication(item){
+            let content = document.querySelector(".Publication-contenido");
+            content.classList.toggle("active");
+        }
+
+        function ooutPublication(item){
+            let content = document.querySelector(".Publication-contenido");
+            content.classList.toggle("active");
+        }
     </script>
     <!--
     <div class="TB-Slide-right">

@@ -168,7 +168,7 @@ img:hover{
     position: fixed;
     right: 0;
     top: 86px;
-    bottom: 2px;
+    bottom: 0px;
     background-color: rgb(15, 5, 28);
     border-left: 1px solid rgb(61, 50, 50);
     overflow: auto;
@@ -363,14 +363,10 @@ img:hover{
     position: fixed;
     bottom: 0;
     background-color: red;
-    top: 90px;
-    right: 217px;
-    border-radius: 5px;
+    top: 85px;
+    right: 215px;
     left: 1px;
     background-color: rgb(15, 5, 28);
-    border-style: solid;
-    border-width: 2.5px;
-    border-color: rgb(41, 39, 39);
     overflow: auto;
     color: rgb(230, 210, 210);
     opacity: 0.93;
