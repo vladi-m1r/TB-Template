@@ -370,7 +370,6 @@ img:hover{
     background-color: rgba(15, 5, 28, 0.90);
     overflow: auto;
     color: rgb(230, 210, 210);
-    padding: 25px;
 }
 
 .TB-MAIN-COMPONENT::-webkit-scrollbar {
