@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 body{
     box-shadow: inset 0px 0px 150px 150px rgba(0, 0, 0, 0.9);
@@ -161,7 +162,7 @@ img:hover{
 
 .TB-Slide-friends{
     color: white;
-    width: 215px;
+    width: 220px;
     float: right;
     font-family: 'Abel', sans-serif;
     background-color: black;
@@ -363,13 +364,12 @@ img:hover{
     position: fixed;
     bottom: 0;
     background-color: red;
-    top: 73px;
-    right: 215px;
-    left: 1px;
-    background-color: rgb(15, 5, 28);
+    top: 70px;
+    right: 220px;
+    left: 0px;
+    background-color: rgba(15, 5, 28, 0.90);
     overflow: auto;
     color: rgb(230, 210, 210);
-    opacity: 0.93;
     padding: 25px;
 }
 

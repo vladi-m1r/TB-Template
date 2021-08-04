@@ -1,0 +1,29 @@
+.Chat-Channel{
+    width: 100%;
+    background-color: rgb(212, 154, 45);
+    height: 100%;
+}
+
+.TB-Chat{
+    width: 100%;
+    background-color: rgb(90, 86, 78);
+    height: 520px;
+    display: flex;
+}
+
+.Chat-Participantes{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(77, 60, 77);
+}
+
+.Chat-Content{
+    position: relative;
+    width: 100%;
+}
+
+.Chat-Input{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
