@@ -46,7 +46,7 @@ html{
 }
 
 .TB-nav-purple{
-    background-color: rgba(28, 12, 51, 0.9);
+    background-color: rgba(28, 12, 51, 1);
     padding: 5px;
     overflow: hidden;
     display: flex;
@@ -167,7 +167,7 @@ img:hover{
     background-color: black;
     position: fixed;
     right: 0;
-    top: 86px;
+    top: 70px;
     bottom: 0px;
     background-color: rgb(15, 5, 28);
     border-left: 1px solid rgb(61, 50, 50);
@@ -363,13 +363,14 @@ img:hover{
     position: fixed;
     bottom: 0;
     background-color: red;
-    top: 85px;
+    top: 73px;
     right: 215px;
     left: 1px;
     background-color: rgb(15, 5, 28);
     overflow: auto;
     color: rgb(230, 210, 210);
     opacity: 0.93;
+    padding: 25px;
 }
 
 .TB-MAIN-COMPONENT::-webkit-scrollbar {

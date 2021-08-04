@@ -5,6 +5,8 @@
 .Notices{
     display: flex;
     padding: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .Publication{
@@ -22,6 +24,7 @@
     transition: 0.5s;
     overflow: hidden;
     justify-content: flex-end;
+    margin-bottom: 30px;
 
 }
 
@@ -36,9 +39,6 @@
     font-size: 25px;
     font-weight: bold;
 }
-
-
-
 
 .Publication-fecha{
     font-size: 20px;
@@ -57,4 +57,17 @@
 .Publication:hover .Publication-just{
     background-color: rgba(0, 0, 0, 0.6);
     height: 220px;
+}
+
+.Seccion-titulo{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+hr{
+    padding: -39px;
+    color: white;
+    background-color: white;
+    width: 90%;
 }
