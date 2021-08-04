@@ -241,12 +241,19 @@
         let profileButton = document.querySelector("#boton-perfil");
         let settingprofile = document.querySelector("#settings-profile");
 
+
+        // Abre y cierra segun donde se presione
+        $(document).mouseup(function (e) {
+            if($(e.target).closest(profileButton).length > 0){
+                settingprofile.classList.toggle("active");
+            }
+            else if($(e.target).closest(settingprofile).length === 0){
+                settingprofile.classList.remove("active");
+            }
+        });
+
         btn.onclick = () =>{
             friendsBar.classList.toggle("active");
-        }
-
-        profileButton.onclick = () =>{
-            settingprofile.classList.toggle("active");
         }
 
         btnClan.onclick = () =>{

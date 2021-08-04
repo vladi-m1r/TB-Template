@@ -29,7 +29,6 @@
 }
 
 .MULTI-BAR-addButton{
-    
     display: flex;
     align-items: center;
     justify-items: center;
@@ -38,6 +37,7 @@
     margin-bottom: 2px;
     padding: 6.5px;
     text-align: center;
+    font-size: 13.5px;
 }
 
 .profile-config{
@@ -48,7 +48,7 @@
     top: 70px;
     flex-direction: column;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0px;
     border-top: 0px;
     border-color: rgb(80, 75, 75);
     overflow: hidden;
@@ -81,5 +81,6 @@
 }
 
 .profile-config.active{
+    border-width: 1px;
     max-height: 200px;
 }
